@@ -8,7 +8,7 @@ function press(){
   var rndNum;
   //the number at the end is max value of the 
   //random number
-  rndNum = Math.random() * 100;
+  rndNum = Math.random() * 7;
   rndNum = Math.floor(rndNum)
   //filling the variable, with whatever was in the textBox
   theirQ = document.getElementById("question").value
