@@ -21,5 +21,5 @@ function press(){
   //filling the variable, with whatever was in the textBox
   theirQ = document.getElementById("question").value
   document.getElementById("question").value = ""
-  document.getElementById("answer").innerHTML = theirQ + responses[rndNum]
+  document.getElementById("answer").innerHTML = ">>"+theirQ+ "</br>"+responses[rndNum]
 }//end press
